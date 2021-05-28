@@ -1,0 +1,93 @@
+<html>
+<head>
+    <title> Assignment-3</title>
+</head>
+<style>
+    span{
+    color:red;
+    font-style: italic;
+    font-weight: bold;
+    }
+    td {
+    background-color:rgb(30,30,48);
+    border:2px solid whitesmoke;
+    width:50%;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 18px;
+    border-radius:10px;
+    margin:10% 10% 10% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    th {
+    background-color:rgb(30,30,48);
+    border:2px solid whitesmoke;
+    width:50%;
+    font-size: 30px;
+    border-radius:10px;
+    margin:10% 10% 10% 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    } 
+    img{
+        height:200px;
+        width:280px;
+        margin:5% 15% 5% 12% ;
+        border-radius: 10px;  
+        border-color: #F5F5F5;
+        border-width: 3px;
+    }
+    input{
+    text-align: center;
+    font-weight: 700;
+    background-color: #EEEADE;
+    border: 4px solid #FFD700;
+    border-radius: 4px;
+    height: 15px;
+    width: 30px;
+    }
+    label{
+    font-size:larger;
+    color:whitesmoke;
+    margin-right:5%;
+    }
+    button{
+    background-color:#1565C0;
+    border-radius:5px;
+    margin-left: 5%; color: white;
+    height: 30px;width: 80px;border: 0px;
+    }
+</style>
+<body style="color:white;background-color:#161625" >
+    <table style="border-collapse: collapse;border:4px solid whitesmoke;background-color:#161625;width:55%;margin:5% 5% 2% 5% ;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <tr>
+            <th>Schools</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/Rohit-Rajpurohit/Full-Stack/raw/master/html/Images/wolf.jpg"></td>
+            <td>The Kaer Morhen / Wolf School was built in the 11th century.In the days of its glory, the School of the Wolf was one of the most recognized of the witcher schools.Its members gained the reputation of professional and reliable monster slayers.<span>Geralt</span> and <span>Ciri</span> are some of the famous witchers from this school. </td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/Rohit-Rajpurohit/Full-Stack/raw/master/html/Images/Bear.jpg"></td>
+            <td>The School of the Bear was founded by the first group of witchers that split off from the <span>Order of Witchers</span>.Students must pass the brutal trial of the mountain.Witchers of the Bear School,tend to be loners and wear heavier armor, favoring defense over agility. </td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/Rohit-Rajpurohit/Full-Stack/raw/master/html/Images/cat.jpg"></td>
+            <td>School of the Cat is a school of <span>ragtag witchers</span>formed after a student mutiny against their former masters.Cat school witchers as well as their equipment do not deal a lot of raw damage, but can inflict deadly critical hits. One of the notable members is <span>Aiden</span> who was best friend of <span>Lambert</span> from Wolf School. </td>
+        </tr>
+        <tr>
+            <td><img src="https://github.com/Rohit-Rajpurohit/Full-Stack/raw/master/html/Images/griffin5.jpg"></td>
+            <td>School of the Griffin is headquartered in Kovir and Poviss,in Kaer Seren and was found by witcher Erland of Larvik.Griffin School equipment is of medium weight and it is heavily implied that the school and its disciples may have specialized in the use of magic.<span>Coën</span> of this school trained Ciri in sword combat.</td>
+        </tr>
+    </table><br/>
+    <p style="font-size:larger;margin-left:4.8%;">Which Witcher School would you like to train in?</p><br/>
+    <form style="display: inline;margin-left:4%; ">
+        <input type="radio" name="school" value="wolf"><label>Wolf Schoool</label>
+        <input type="radio" name="school" value="bear"><label>Bear Schoool</label>
+        <input type="radio" name="school" value="cat"><label>Cat Schoool</label>
+        <input type="radio" name="school" value="griffin"><label>Griffin Schoool</label>
+    </form><br/><br/><br/>
+    <button id="submit" onclick="window.location.href = './Full_Stack_Asg_2.html';">Submit</button>
+    <br/><br/>
+</body>
